@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #101010;
+    font-family: sans-serif;
+    color: white;
+    overflow: hidden;
+  }
+  
+  #tabs {
+    display: flex;
+    align-items: center;
+    background-color: #0d0d1a;
+    padding: 8px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3399ff;
+    margin-right: 10px;
+  }
+  
+  #addTab {
+    background-color: #1a1a2e;
+    color: #3399ff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #editorContainer {
+    width: 100%;
+    height: calc(100% - 44px);
+  }
+  
